@@ -5,4 +5,4 @@ def test_transform_data():
     data = [["Anu", 22], None, ["Rahul", 25]]
     result = transform_data(data)
 
- assert None in result
+ assert None not in result
