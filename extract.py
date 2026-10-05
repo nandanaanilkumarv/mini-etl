@@ -6,6 +6,6 @@ with open("data.csv", newline="") as file:
 
 print("Row count:", len(rows) - 1)
 def transform_data(data):
-    return [row for row in data if row]
+    return [row for row in data if row and row != ""]
     def load_data(data):
     print("Loading", len(data), "rows")
